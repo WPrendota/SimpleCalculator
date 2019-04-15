@@ -1,4 +1,10 @@
 # SimpleCalculator
-	The simple calculator with Tests.
+	The simple calculator example with Test file.
   
+# Technologies
+* Python
+
+# SimpleCalculator
+
+# SimpleCalculator
   Witold
