@@ -1,13 +1,16 @@
 # SimpleCalculator
 The simple calculator and test file example.
+
 --- 
 
 #### Technologies
 * Python
+
 --- 
 
 #### Testing
 The implemented calculator functions were checked by UnitTests attached in the 'TestSimpleCalculator.py' file.
+
 --- 
 
 #### Deployment
@@ -23,6 +26,7 @@ For example:
 '''
 -sum 5 5
 '''
+
 --- 
 
 #### Contributors
