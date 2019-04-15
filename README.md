@@ -1,5 +1,5 @@
 # SimpleCalculator
-The simple calculator and test file example.
+**The simple calculator and test file example.**
 
 Version 1.0.0
 
@@ -11,12 +11,12 @@ Version 1.0.0
 --- 
 
 #### Testing
-The implemented calculator functions were checked by UnitTests attached in the 'TestSimpleCalculator.py' file.
+The implemented calculator functions were checked by UnitTests attached in the **TestSimpleCalculator.py** file.
 
 --- 
 
 #### Deployment
-Download the 'SimpleCalculator.py' file. In the command line use following arguments for desirable action:
+Download the **SimpleCalculator.py** file. In the command line use following arguments for desirable action:
 *-h for help
 *-sum for addition,
 *-sub for subtraction,
@@ -25,7 +25,9 @@ Download the 'SimpleCalculator.py' file. In the command line use following argum
 Last four commands takes additional two arguments, which corresponds to the choosed numbers.
 For example: 
 
-'-sum 5 5'
+```
+-sum 5 5
+```
 
 --- 
 
