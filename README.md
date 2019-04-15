@@ -25,9 +25,7 @@ Download the 'SimpleCalculator.py' file. In the command line use following argum
 Last four commands takes additional two arguments, which corresponds to the choosed numbers.
 For example: 
 
-'
--sum 5 5
-'
+'-sum 5 5'
 
 --- 
 
