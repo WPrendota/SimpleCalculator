@@ -1,7 +1,7 @@
 # SimpleCalculator
 	The simple calculator example with Test file.
   
-# Technologies
+#### Technologies
 * Python
 
 # SimpleCalculator
