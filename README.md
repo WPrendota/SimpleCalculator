@@ -1,6 +1,8 @@
 # SimpleCalculator
 The simple calculator and test file example.
 
+Version 1.0.0
+
 --- 
 
 #### Technologies
@@ -23,9 +25,9 @@ Download the 'SimpleCalculator.py' file. In the command line use following argum
 Last four commands takes additional two arguments, which corresponds to the choosed numbers.
 For example: 
 
-'''
+'
 -sum 5 5
-'''
+'
 
 --- 
 
