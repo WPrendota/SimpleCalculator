@@ -8,6 +8,8 @@ deploy:
 language: python
 python:
   - 3.6
+install:
+  - pip install python-coveralls
 script: 
   - python TestSimpleCalculator.py
   - coverage run --source=home TestSimpleCalculator.py
