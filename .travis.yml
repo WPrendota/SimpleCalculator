@@ -1,3 +1,10 @@
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $TravisCl  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
 language: python
 python:
   - 3.6
