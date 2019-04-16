@@ -1,3 +1,0 @@
-repo_token: $CoverageToken
-service_name: travis-cl
-parallel: true # if the CI is running your build in parallel
