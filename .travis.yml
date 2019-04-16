@@ -5,6 +5,8 @@ deploy:
   keep_history: true
   on:
     branch: master
+install:
+  $ pip install python-coveralls
 language: python
 python:
   - 3.6
