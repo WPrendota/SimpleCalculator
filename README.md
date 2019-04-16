@@ -1,4 +1,6 @@
 # SimpleCalculator
+[![Build Status](https://travis-ci.com/WPrendota/SimpleCalculator.svg?branch=master)](https://travis-ci.com/WPrendota/SimpleCalculator)
+
 **The simple calculator and test file example.**
 
 Version 1.0.0
