@@ -1,0 +1,17 @@
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $TravisCl
+  keep_history: true
+  on:
+    branch: master
+language: python
+python:
+  - 3.6
+install:
+  - pip install python-coveralls
+script: 
+  - python TestSimpleCalculator.py
+  - coverage run TestSimpleCalculator.py
+after_success:
+  - coveralls
