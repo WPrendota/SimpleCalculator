@@ -34,4 +34,4 @@ For example:
 --- 
 
 #### Contributors
-Witold
+Witold Prendota
