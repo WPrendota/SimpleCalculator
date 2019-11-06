@@ -6,22 +6,22 @@ Version 1.0.0
 
 --- 
 
-#### Technologies
+## Technologies
 * Python
 
 --- 
 
-#### Description
+## Description
 **The simple calculator and test file example.**
 
 --- 
 
-#### Testing
+## Testing
 The implemented calculator functions were checked by UnitTests attached in the **TestSimpleCalculator.py** file.
 
 --- 
 
-#### Deployment
+## Deployment
 Download the **SimpleCalculator.py** file. In the command line use following arguments for desirable action:
 * **-h** for help
 * **-sum** for addition,
@@ -38,5 +38,5 @@ For example:
 
 --- 
 
-#### Contributors
-Witold Prendota
+## Contributors
+### Witold Prendota
