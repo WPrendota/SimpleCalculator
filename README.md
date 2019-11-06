@@ -28,8 +28,16 @@ Last four commands takes additional two arguments, which corresponds to the choo
 
 For example: 
 
+Input:
+
 ```
 -sum 5 5
+```
+
+Output:
+
+```
+10
 ```
 
 ---
