@@ -16,7 +16,7 @@ class TestSimpleCalculator(unittest.TestCase):
     def test_run(self):
         sc1 = SimpleCalculator(['simple_calculator.py', '-div'])
 
-        self.assertRaises(argparse.ArgumentTypeError, lambda: sc1.run())
+        self.assertRaises(argparse.ArgumentTypeError, sc1.run())
         print("test_run - Done")
 
     def test_arg_parse(self):
