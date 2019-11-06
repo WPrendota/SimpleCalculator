@@ -1,6 +1,6 @@
 # SimpleCalculator
 [![Build Status](https://travis-ci.com/WPrendota/SimpleCalculator.svg?branch=master)](https://travis-ci.com/WPrendota/SimpleCalculator)
-[![Coverage Status](https://coveralls.io/repos/github/WPrendota/SimpleCalculator/badge.svg?branch=master)](https://coveralls.io/github/WPrendota/SimpleCalculator?branch=master)
+
 
 **The simple calculator and test file example.**
 
