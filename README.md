@@ -20,12 +20,13 @@ The implemented calculator functions were checked by UnitTests attached in the *
 
 #### Deployment
 Download the **SimpleCalculator.py** file. In the command line use following arguments for desirable action:
-*-h for help
-*-sum for addition,
-*-sub for subtraction,
-*-mult for multiplication,
-*-div for divisio.
+* **-h** for help
+* **-sum** for addition,
+* **-sub** for subtraction,
+* **-mult** for multiplication,
+* **-div** for divisio.
 Last four commands takes additional two arguments, which corresponds to the choosed numbers.
+
 For example: 
 
 ```
