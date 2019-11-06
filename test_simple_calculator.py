@@ -1,3 +1,4 @@
+import argparse
 import unittest
 
 from simple_calculator import SimpleCalculator
@@ -13,8 +14,9 @@ class TestSimpleCalculator(unittest.TestCase):
         print("test_constructor - Done")
 
     def test_run(self):
-        sc1 = SimpleCalculator(['simple_calculator.py', '-div', '1'])
-        self.assertRaises(Exception, sc1.run())
+        sc1 = SimpleCalculator(['simple_calculator.py', '-div'])
+
+        self.assertRaises(argparse.ArgumentTypeError, sc1.run())
         print("test_run - Done")
 
     def test_arg_parse(self):
