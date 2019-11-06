@@ -11,7 +11,7 @@ python:
 install:
   - pip install python-coveralls
 script: 
-  - python TestSimpleCalculator.py
-  - coverage run TestSimpleCalculator.py
+  - python test_simple_calculator.py
+  - coverage run test_simple_calculator.py
 after_success:
   - coveralls

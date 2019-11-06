@@ -18,7 +18,8 @@ class SimpleCalculator:
         if self.parser.div:
             print(self.division(self.parser.div[0], self.parser.div[1]))
 
-    def arg_parse(self, arg_parser):
+    @staticmethod
+    def arg_parse(arg_parser):
         if arg_parser is None:
             print("Welcome to the simple calculator. Use '-h' argument to get the information about the commands.")
 
