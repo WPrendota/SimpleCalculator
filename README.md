@@ -7,7 +7,7 @@ Version 1.0.0
 --- 
 
 ## Technologies
-* Python
+* [Python](https://www.python.org)
 
 --- 
 
