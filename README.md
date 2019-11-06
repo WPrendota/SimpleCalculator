@@ -18,11 +18,11 @@ Version 1.0.0
 
 ## Deployment
 Download the **SimpleCalculator.py** file. In the command line use following arguments for desirable action:
-* **-h** for the help
-* **-sum** for the addition,
-* **-sub** for the subtraction,
-* **-mult** for the multiplication,
-* **-div** for the divisio.
+* **```-h```** for the help
+* **```-sum```** for the addition,
+* **```-sub```** for the subtraction,
+* **```-mult```** for the multiplication,
+* **```-div```** for the divisio.
 The last four commands take an additional two arguments, which corresponds to the chosen numbers.
 
 For example: 
