@@ -1,7 +1,7 @@
 import unittest
 
 from types import SimpleNamespace
-from simple_calculator import SimpleCalculator
+from SimpleCalculator import SimpleCalculator
 
 
 class TestSimpleCalculator(unittest.TestCase):
@@ -9,8 +9,14 @@ class TestSimpleCalculator(unittest.TestCase):
         self.sc = SimpleCalculator(SimpleNamespace(div=None, mult=None, sub=None, sum=None))
 
     def test_arg_parse(self):
-        parser = SimpleCalculator.arg_parse(['-sum', '-sub', '-mult', '-div'])
-        self.assertTrue(parser)
+        self.assertEqual(SimpleCalculator.arg_parse(self, SimpleNamespace(div=[2, 2], mult=None, sub=None, sum=None)),
+                         SimpleNamespace(div=[2, 2], mult=None, sub=None, sum=None))
+        self.assertEqual(SimpleCalculator.arg_parse(self, SimpleNamespace(div=None, mult=[2, 2], sub=None, sum=None)),
+                         SimpleNamespace(div=None, mult=[2, 2], sub=None, sum=None))
+        self.assertEqual(SimpleCalculator.arg_parse(self, SimpleNamespace(div=None, mult=None, sub=[2, 2], sum=None)),
+                         SimpleNamespace(div=None, mult=None, sub=[2, 2], sum=None))
+        self.assertEqual(SimpleCalculator.arg_parse(self, SimpleNamespace(div=None, mult=None, sub=None, sum=[2, 2])),
+                         SimpleNamespace(div=None, mult=None, sub=None, sum=[2, 2]))
 
     def test_addition(self):
         self.assertEqual(SimpleCalculator.addition(2, 2), 4)
