@@ -24,7 +24,7 @@ class SimpleCalculator:
 
             if self.argp.parse_args().div:
                 print(self.division(self.argp.parse_args().div[0], self.argp.parse_args().div[1]))
-        except Exception:
+        except argparse.ArgumentTypeError:
             logging.error('Failed.', exc_info=True)
 
     @staticmethod
